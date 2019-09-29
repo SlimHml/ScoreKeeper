@@ -27,7 +27,9 @@ function p1Button () {
         alert("Player 1 has WON !!");
         gameOver = true;
     }
+    {
     player1score.textContent = score1;
+    }
 }
 }
 
@@ -39,7 +41,9 @@ function p2Button () {
         alert("Player 2 has WON !!");
         gameOver = true;
     }
+    {
     player2score.textContent = score2;
+    }
 }
 }
 
